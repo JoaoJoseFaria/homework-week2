@@ -1,9 +1,9 @@
 class Email
-	def initialize(subject, header)
-		@subject = subject
-		@header = header
+  def initialize(subject, header)
+    @subject = subject
+    @header = header
   end
-  
+
   def subject
     @subject
   end
